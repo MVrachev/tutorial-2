@@ -6,7 +6,7 @@ on:
       - v*
 
 jobs:
-  release:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Initial build
