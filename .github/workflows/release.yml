@@ -9,3 +9,21 @@ jobs:
     steps:
       - name: Initial echo
         run: echo "Initialize"
+
+      - name: Checkout
+        # Uses a particular commit of the actions/checkout project
+        uses: actions/checkout@2541b1294d2704b0964813337f33b291d3f8596b
+
+      - name: Set Up Python
+        uses: actions/setup-python@c4e89fac7e8767b327bbad6cb4d859eda999cf08
+        with:
+          python-version: '3.8'
+
+      - name: Install build dependency
+        run: python3 -m pip install build
+
+      - name: Build
+        run: python3 -m build
+
+      - name: List shas
+        run: sha256sum dist/*
