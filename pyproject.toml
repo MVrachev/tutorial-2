@@ -1,11 +1,11 @@
 [build-system]
-requires = ["hatchling==1.6.0"]
+requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 
 [project]
 name = "tutorial-2"
-version = "0.0.9"
+version = "0.0.10"
 authors = [
   { name="Martin Vrachev", email="mvrachev@vmware.com" },
 ]
