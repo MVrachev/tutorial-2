@@ -5,13 +5,13 @@ build-backend = "hatchling.build"
 
 [project]
 name = "tutorial-2"
-version = "0.0.16"
+version = "0.0.17"
 authors = [
   { name="Martin Vrachev", email="mvrachev@vmware.com" },
 ]
 description = "Tutorial package"
 readme = "README.md"
-license = { file="LICENSE" }
+license = { text = "Apache-2.0" }
 requires-python = ">=3.9"
 classifiers = [
     "Programming Language :: Python :: 3",
