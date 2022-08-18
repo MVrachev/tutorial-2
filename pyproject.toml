@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "tutorial-2"
-version = "0.0.8"
+version = "0.0.9"
 authors = [
   { name="Martin Vrachev", email="mvrachev@vmware.com" },
 ]
